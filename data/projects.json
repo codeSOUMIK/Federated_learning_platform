@@ -1,0 +1,142 @@
+[
+  {
+    "name": "classifier",
+    "description": "",
+    "model": "resnet50",
+    "datasetType": "text",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753543540428",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "medical image classifier",
+    "description": "",
+    "model": "resnet50",
+    "datasetType": "image",
+    "rounds": 5,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.001,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753556062868",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "image classifier",
+    "description": "",
+    "model": "resnet50",
+    "datasetType": "image",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753557725175",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "image classifier",
+    "description": "",
+    "model": "mobilenet",
+    "datasetType": "image",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753563430716",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "classifier",
+    "description": "wdawdawdaw",
+    "model": "resnet50",
+    "datasetType": "image",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753563647580",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "classifier",
+    "description": "adwadawd",
+    "model": "resnet50",
+    "datasetType": "text",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753563699089",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  },
+  {
+    "name": "image classifier122",
+    "description": "",
+    "model": "lstm",
+    "datasetType": "tabular",
+    "rounds": 10,
+    "settings": {
+      "minClients": 2,
+      "learningRate": 0.01,
+      "batchSize": 32,
+      "aggregation": "FedAvg",
+      "privacy": "none"
+    },
+    "id": "1753566743921",
+    "status": "created",
+    "currentRound": 0,
+    "accuracy": 0,
+    "clients": 0,
+    "createdAt": "2025-07-26"
+  }
+]

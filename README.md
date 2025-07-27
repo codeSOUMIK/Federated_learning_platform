@@ -1,0 +1,1 @@
+You've developed a privacy-preserving federated learning platform that enables businesses to submit AI models, which are then securely trained by their clients on private data. Only model updates (weights and biases) are shared—ensuring data confidentiality—while continuously improving a global model accessible to all clients for future predictions.
